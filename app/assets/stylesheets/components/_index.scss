@@ -1,3 +1,18 @@
 // Import your components CSS files here.
 @import "alert";
 @import "navbar";
+
+.header {
+  background-image: url('https://images.freecreatives.com/wp-content/uploads/2015/10/beach-waves-sunset-wide-high-definition-wallpaper.jpg');
+  background-size: cover;
+  opacity: 0.8;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#titleheader {
+  color: black;
+}
