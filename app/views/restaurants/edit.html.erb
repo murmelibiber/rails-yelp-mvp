@@ -1,0 +1,8 @@
+<h1>EDIT</h1>
+<%= form_for @restaurant do |f| %>
+  Name: <%= f.text_field :name, placeholder: 'name' %>
+  Address: <%= f.text_field :address, placeholder: 'address' %>
+  category: <%= f.text_field :category, placeholder: 'category' %>
+  Phone: <%= f.text_field :phone_number, placeholder: 'phone' %>
+  <%= f.submit %>
+<% end %>

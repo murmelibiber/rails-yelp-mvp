@@ -1,0 +1,30 @@
+<h1>this is the index restaurant</h1>
+
+
+<%= link_to 'create a new restaurant', new_restaurant_path %>
+<% @restaurants.each do |restaurant| %>
+  <h2><%= restaurant.name %></h2>
+  <p><%= link_to 'details', restaurant_path(restaurant) %></p>
+  <p><%= link_to 'edit resti', edit_restaurant_path(restaurant)%></p>
+  <p><%= link_to "delete this one", restaurant_path(restaurant), method: :delete %></p>
+  <p><%= link_to 'add a review', new_restaurant_review_path(restaurant) %></p>
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
